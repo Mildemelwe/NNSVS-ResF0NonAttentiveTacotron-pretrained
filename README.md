@@ -18,6 +18,7 @@ In intunist's Colab notebook, make and run a new cell like so: `!wget {link to m
 Make another cell to unzip the file: `!unzip {path to model}`\
 Expand the model's `exp` folder and copy+paste the path to the folder called `ResF0NonAttentiveTacotron_pretrained_intunist_prototyping_notebook` into the notebook's `pretrained_expdir` setting.
 # Data
+There is a total of 5 hours and 21 minutes of data used in this model.
 
 |Singer|Minutes of data (without silence)|
 |---|---|
@@ -40,3 +41,23 @@ Expand the model's `exp` folder and copy+paste the path to the folder called `Re
 |jvs039|1|
 |jvs076|1|
 |かっぴりー|3|
+|草薙快速雷虎|5|
+|まいこ|4|
+|MIZKI|3|
+|おふとんP|4|
+|紺瀬ぷち|4|
+|ささささ|3|
+|翠澤しのん|6|
+|Suzu|104|
+|Tetsu|75|
+|とめあ|3|
+|とろっぽ|3|
+|Google Translate|20|
+# Attributions
+- jvs010, 039, and 076 labeled by alice
+- jvs001, 002, and Google Translate labeled by Mildemelwe
+- Ariel by めんるい
+- Tetsu by たまご
+- Suzu by ハイッヤー
+- Other data is from https://github.com/oatsu-gh/enunu_kodoku_singing
+- Trained on intunist's NNSVS training notebook
